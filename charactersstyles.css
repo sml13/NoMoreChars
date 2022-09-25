@@ -1,0 +1,75 @@
+body {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #14121a;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+header {
+    font-size: 2em;
+    height: 80px;
+    width: 50%;
+    padding-left: 43%;
+    margin-top: 20px;
+}
+.Button {
+    height: 30px;
+    width: 200px;
+    margin-left: 46%;
+    background-color: whitesmoke;
+    border: solid 3px #09080c;
+    border-radius: 5px;
+}
+
+.CharPlace {
+    margin-top: 1%;
+    margin-left: 45%;
+    display: flex;
+}
+.CharPick {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    text-align: center;
+}
+
+.mainblock {
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 40%;
+}
+@media (max-width:600px)
+{
+}
+textarea {
+    align-items: center;
+    background-color: #14121a;
+    border: solid 3px whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+@media (max-width:600px){
+    header {
+        margin-top: 0;
+        margin-left: 15%;
+        width: 70%;
+        padding: 10%;
+        text-align: center;
+    }
+    .Button {
+        margin-left: 23%;
+        margin-bottom: 10px;
+    }
+    .CharPlace {
+        margin-left: 25%;
+    }
+    .mainblock {
+        padding-left: 0;
+    }
+    .textarea {
+        width:50%;
+    }
+}
