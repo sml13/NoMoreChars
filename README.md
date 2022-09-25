@@ -10,6 +10,7 @@ Example:
 2. This is the second information"
 
 So if you copy from the system, when you paste it, this is the result:
+
 "1. This is the first information
 
 2. This is the second information"
